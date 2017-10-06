@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form test</title>
+</head>
+<body>
+
+  
+    
+  <h1>Play with the HTML form</h1>
+  <form action="/index.php">
+    <input type="hidden" name="submitted" value="yes">
+    <p>
+      <label for="my-radio-yes">radio Yes: </label>
+      <input id="my-radio-yes" name="radio" type="radio" required value="Yes">
+      <label for="my-radio-no">radio No: </label>
+      <input id="my-radio-no" name="radio" type="radio" required value="No"></p>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+
+  
+<br>
+<label>Your ID<input type="text" name="myname" required maxlength="5" placeholder="Type your text"></label>
+	<input type="submit" value="Send ID"> 
+	
+	
+	<br><br>
+	<label>Choose your color</label><input type="color" name="mycolor">
+	<input type="submit" value="Submit">
+	<br><br>
+	
+	  
+	   <p>Type - Date</p>
+    <input type="date" name="mydate">
+    <input type="submit" value="Enter Date">
+
+    <p>Type - month</p>
+    <label>Choose month</label>
+    <input type="month" name="mymonth" required>
+    <input type="submit" value="Ready">
+
+    <p>Type - e-mail</p>
+    <label>Your e-mail</label>
+    <input type="email" name="myemail" required value="e-mail here" autofocus>
+    <input type="submit" value="OK">
+
+    <p>Type - Radio</p>
+    <label>Radio</label>
+    <input type="radio" name="myradio1" checked disabled>
+    <input type="submit" value="OK">
+
+    <p>Type - Number</p>
+
+    <input type="number" name="mynumber" maxlength="5">
+    <input type="submit" value="Push me">
+
+    <p>Type - Range</p>
+
+    <input type="range" name="myrange" min="2" max="10">
+    <input type="submit" value="OK">
+
+    <p>Type - Checkbox</p>
+
+    <input type="checkbox" name="mycheck" required >
+    <input type="submit" value="Check it!">
+	
+	  <p>Type - Select</p>
+	  <select multiple name="Characther" required>
+		  <option disabled>Choose sport</option>
+		  <option value="Man">Baseball</option>
+		  <option value="Alien">Football</option>
+	      <option value="Martians">Basketball</option>
+	  
+		  	  </select>
+	  <input type="submit" value="Send">
+	  
+	  <br>
+	  <br>
+	  
+	  <textarea placeholder="Type text" required name="myarea" rows="8"></textarea>
+		  
+		  
+	
+	  </form>
+
+
+  
+</body>
+</html>
